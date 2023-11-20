@@ -19,5 +19,16 @@ Given the following race conditions, the project objective is to optimise timing
   4. Fullwet
 
 Additional Details:
-![Uploading image.png…]()
+
+<img width="524" alt="image" src="https://github.com/weijie-lim/CS609_Reinforcement_learning_racing_optimisation/assets/47061871/16d14da3-5802-48b7-adef-f82d298c71d5">
+
+Project Implementation:
+- DQN
+- Monte Carlo Tree Search
+- Rules based 
+
+References
+Piccinotti, D., Likmeta, A., Brunello, N., & Restelli, M. (2021). Online planning for F1 race strategy identiﬁcation - github pages. Online Planning for F1 Race Strategy Identification. https://prl-theworkshop.github.io/prl2021/papers/PRL2021_paper_1.pdf Taken from: Journal: Association for the Advancement of Artificial Intelligence (AAAI), www.aaai.org 
+![image](https://github.com/weijie-lim/CS609_Reinforcement_learning_racing_optimisation/assets/47061871/228fbc8f-407d-4078-bfe5-e73ae4cad100)
+
 
