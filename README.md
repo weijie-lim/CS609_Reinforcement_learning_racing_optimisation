@@ -25,10 +25,38 @@ Additional Details:
 Project Implementation:
 - DQN
 - Monte Carlo Tree Search
-- Rules based 
+- Rules based
+
+Project Evaluation Data Set:
+Our test set is a range of various weather sequences, approximately 90 different weather sequences, all beginning with an intermediate tyre choice.
+
+Project Results
+<img width="526" alt="image" src="https://github.com/weijie-lim/CS609_Reinforcement_learning_racing_optimisation/assets/47061871/7d19cb1f-0b86-498c-9696-1a44afc65eae">
+Notable behaviour
+•	(-11,093) Rules-based will act immediately after valid weather changes
+•	(-11,102) DQN shows heavy oscillation but is similar to rules-based behaviour. 
+•	(-11,087) MCTS behaviour erratic but seems to react appropriately to weather changes
+
+<img width="526" alt="image" src="https://github.com/weijie-lim/CS609_Reinforcement_learning_racing_optimisation/assets/47061871/7141139e-1503-4fcb-b464-0ca631800cc5">
+Notable behaviour
+•	(-16,007) Rules-based will act immediately after valid weather changes.
+•	(-16,009) DQN shows heavy oscillation but is like rules-based behaviour. 
+•	(-16,014) MCTS behaviour erratic but seems to react appropriately to weather changes
+
+
+<img width="526" alt="image" src="https://github.com/weijie-lim/CS609_Reinforcement_learning_racing_optimisation/assets/47061871/b1daa30e-386a-4241-b68b-52f8bd39ef2c">
+Notable behaviour
+•	(-18,694) Rules-based responds to 60% Wet weather condition.
+•	(-18,770) DQN shows heavy oscillation in tyres, which is hard to interpret. 
+•	(-18,588) MCTS takes a different tyre trajectory compared to rules-based, using all 4 tyre types. The difference in results is also much larger here.
+
 
 References
 Piccinotti, D., Likmeta, A., Brunello, N., & Restelli, M. (2021). Online planning for F1 race strategy identiﬁcation - github pages. Online Planning for F1 Race Strategy Identification. https://prl-theworkshop.github.io/prl2021/papers/PRL2021_paper_1.pdf Taken from: Journal: Association for the Advancement of Artificial Intelligence (AAAI), www.aaai.org 
 ![image](https://github.com/weijie-lim/CS609_Reinforcement_learning_racing_optimisation/assets/47061871/228fbc8f-407d-4078-bfe5-e73ae4cad100)
 
-
+Project Mates Credit:
+- Chia Dehan
+- Colin Jiang
+- Ng Juan Yong
+- Lim Wei Jie
