@@ -31,6 +31,7 @@ Project Evaluation Data Set:
 - Our test set is a range of various weather sequences, approximately 90 different weather sequences, all beginning with an intermediate tyre choice.
 
 Project Results
+
 <img width="526" alt="image" src="https://github.com/weijie-lim/CS609_Reinforcement_learning_racing_optimisation/assets/47061871/7d19cb1f-0b86-498c-9696-1a44afc65eae">
 
 - Notable behaviour
